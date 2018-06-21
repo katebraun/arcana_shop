@@ -10,3 +10,4 @@ npm-debug.*
 source/css/*.css
 build/
 Thumbs.db
+source/sass/global/normalize.scss
