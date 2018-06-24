@@ -30,17 +30,3 @@ gulp.task("serve", ["style"], function() {
   gulp.watch("source/sass/**/*.{scss,sass}", ["style"]);
   gulp.watch("source/*.html").on("change", server.reload);
 });
-
-.DS_Store
-.idea
-*.ai
-*.log
-*.pdf
-*.psd
-*.sublime*
-node_modules/
-npm-debug.*
-source/css/*.css
-build/
-Thumbs.db
-source/sass/global/normalize.scss
