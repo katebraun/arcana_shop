@@ -4,11 +4,12 @@
 @import "global/fonts.scss";
 @import "global/mixin.scss";
 @import "global/basic.scss";
+@import "global/animation.scss";
 
 // Common
 @import "blocks/common/page-header/page-header.scss";
 @import "blocks/common/page-header/nav.scss";
-
+@import "blocks/index/slider.scss";
 @import "blocks/common/modal/modal.scss";
 @import "blocks/common/modal/modal-menu.scss";
 @import "blocks/common/modal/modal-cats.scss";
@@ -21,7 +22,6 @@
 @import "blocks/common/modal/summary.scss";
 
 // Index
-@import "blocks/index/page-main.scss";
 @import "blocks/index/features.scss";
 @import "blocks/index/categories.scss";
 @import "blocks/index/trending.scss";
